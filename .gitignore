@@ -1,0 +1,16 @@
+# Node modules (all levels)
+/node_modules
+node_modules
+**/node_modules
+
+# Next.js build
+.next
+**/.next
+out
+
+# Turborepo cache
+.turbo
+
+# Dist builds from packages
+dist
+**/dist
