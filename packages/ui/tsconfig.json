@@ -3,6 +3,8 @@
   "compilerOptions": {
     "declaration": true,
     "emitDeclarationOnly": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     "outDir": "dist",
     "jsx": "react-jsx"
   },
