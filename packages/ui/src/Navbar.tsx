@@ -5,9 +5,9 @@ import Link from "next/link";
 export function Navbar() {
   return (
     <nav style={{ padding: "1rem", borderBottom: "1px solid #ddd" }}>
-      <Link href="/">Home</Link> |{" "}
-      <Link href="/login">Login</Link> |{" "}
-      <Link href="/admin">Admin</Link>
+      <Link href="https://mfe-home.vercel.app/">Home</Link> |{" "}
+      <Link href="https://mfe-login.vercel.app/">Login</Link> |{" "}
+      <Link href="https://mfe-admin.vercel.app/">Admin</Link>
     </nav>
   );
 }
